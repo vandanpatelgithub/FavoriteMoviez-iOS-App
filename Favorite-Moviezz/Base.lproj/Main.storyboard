@@ -76,6 +76,7 @@
                                             <outlet property="movieImage" destination="wsu-UK-zEx" id="YRC-uE-d54"/>
                                             <outlet property="movieTitle" destination="kXY-KZ-nyo" id="Ham-Y9-6ta"/>
                                             <outlet property="movieURL" destination="54K-lX-lIE" id="6Jf-Gq-Ln1"/>
+                                            <segue destination="f9S-Cf-Qex" kind="show" identifier="DetailedVC" id="tQT-Se-bcl"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -104,6 +105,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1105" y="364"/>
+        </scene>
+        <!--DetailedVC-->
+        <scene sceneID="Rlf-jd-9m2">
+            <objects>
+                <viewController id="f9S-Cf-Qex" customClass="DetailedVC" customModule="Favorite_Moviezz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UpR-rk-Kq1"/>
+                        <viewControllerLayoutGuide type="bottom" id="8SB-ge-G6q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YDu-eW-DU3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h9I-Z5-taD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205" y="1033"/>
         </scene>
         <!--Add MovieVC-->
         <scene sceneID="ejz-oh-o9F">

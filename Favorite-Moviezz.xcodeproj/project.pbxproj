@@ -17,6 +17,7 @@
 		628731FE1D5ACBE400FC21CD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628731FC1D5ACBE400FC21CD /* Movie.swift */; };
 		628732001D5ACDD300FC21CD /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628731FF1D5ACDD300FC21CD /* MovieCell.swift */; };
 		628732021D5AF67800FC21CD /* AddMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628732011D5AF67800FC21CD /* AddMovieVC.swift */; };
+		628732041D5B031C00FC21CD /* DetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628732031D5B031C00FC21CD /* DetailedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		628731FC1D5ACBE400FC21CD /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../Movie.swift; sourceTree = "<group>"; };
 		628731FF1D5ACDD300FC21CD /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		628732011D5AF67800FC21CD /* AddMovieVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieVC.swift; sourceTree = "<group>"; };
+		628732031D5B031C00FC21CD /* DetailedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				628731E51D5A62F200FC21CD /* ViewController.swift */,
 				628732011D5AF67800FC21CD /* AddMovieVC.swift */,
+				628732031D5B031C00FC21CD /* DetailedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628732041D5B031C00FC21CD /* DetailedVC.swift in Sources */,
 				628731FD1D5ACBE400FC21CD /* Movie+CoreDataProperties.swift in Sources */,
 				628731E61D5A62F200FC21CD /* ViewController.swift in Sources */,
 				628732001D5ACDD300FC21CD /* MovieCell.swift in Sources */,
