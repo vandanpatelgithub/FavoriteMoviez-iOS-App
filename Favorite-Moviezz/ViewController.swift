@@ -67,6 +67,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             return cell
         }
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "DetailedVC" {
+            
+            if let detailedVC = segue.destinationViewController as? DetailedVC {
+                
+                if let movie = sender as? MovieCell {
+                    
+                    let indexPath = tableView.indexPathForCell(movie)?.row
+                    
+                    detailedVC.movie = movies[indexPath!]
+                }
+            }
+        }
+    }
 
 }
 
